@@ -18,4 +18,16 @@ ROOT_DIR = (Path(__file__).resolve().parent / '../../../').resolve()
             save_path=ROOT_DIR / 'data' / 'kitti'
         )
 ```  
-4. 
+4. 数据集准备就绪：  
+```
+Database Pedestrian: 2207
+Database Car: 14357
+Database Cyclist: 734
+Database Van: 1297
+Database Truck: 488
+Database Tram: 224
+Database Misc: 337
+Database Person_sitting: 56
+---------------Data preparation Done---------------
+```  
+5. 
