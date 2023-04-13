@@ -96,3 +96,4 @@ aos  AP:95.06, 79.31, 74.99
 2023-04-13 17:23:49,104   INFO  Result is save to /home/xilm/fuxian/VoxSeT/VoxSeT-master/output/cfgs/kitti_models/voxset/default/eval/epoch_100/val/default
 2023-04-13 17:23:49,104   INFO  ****************Evaluation done.*****************
 ```  
+6. 可视化数据时遇到了pcdet多路径的问题`python demo.py --cfg_file ./cfgs/kitti_models/voxset.yaml --ckpt /home/xilm/fuxian/VoxSeT/VoxSeT-master/ckpt/checkpoint_epoch_100.pth --data_path /home/xilm/kitti/KITTI/testing/velodyne/000010.bin`  
